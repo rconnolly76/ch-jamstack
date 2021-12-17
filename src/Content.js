@@ -12,7 +12,7 @@ const Content = ( { content }) => {
     const masterAssetPublicLink = findPublicLinkByType(publicLinks, "preview");
     return (
      <Card sx={{ maxWidth: 345 }}>
-     <CardMedia component="img" height="140" image={masterAssetPublicLink[0].url}
+     <CardMedia component="img" height="100%" width="100%" image={masterAssetPublicLink[0].url}
 
      />
      <CardContent>
